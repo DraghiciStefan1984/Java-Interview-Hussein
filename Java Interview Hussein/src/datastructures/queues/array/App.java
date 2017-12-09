@@ -1,4 +1,4 @@
-package datastructures.queues;
+package datastructures.queues.array;
 
 public class App
 {
