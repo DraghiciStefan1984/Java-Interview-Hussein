@@ -17,6 +17,16 @@ public class Dataset
 		return data;
 	}
 	
+	public static Comparable<Integer>[] generateRandomComparableArray(int size)
+	{
+		Integer[] data=new Integer[size];
+		for(int i=0; i<size; i++)
+		{
+			data[i]=random.nextInt();
+		}
+		return data;
+	}
+	
 	public static int[] generateSortedArray(int size)
 	{
 		sortedArray=new int[size];
